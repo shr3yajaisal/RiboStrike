@@ -30,3 +30,4 @@
 
 
 Till now completed NumPy
+Today i need to complete pandas module
