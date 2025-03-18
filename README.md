@@ -27,3 +27,5 @@
 	- Convolutional Neural Networks (CNNs) - used for image
 	- Recurrent Neural Networks (RNNs) - used for sequence
 	- Transformers - Used in advanced AI like chatGPT
+
+roadmap ki maa ka bhosda
