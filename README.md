@@ -35,3 +35,36 @@ Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how 
   - Desalt and remove inorganic molecules (if applicable)
   - **Splitting -** split the data into train, test and validation sets. (do scaffold - based splitting to ensure that the data used for training and testing does not overlap in terms of molecular structure)
 
+- **Hyper - parameter optimization -**
+  - Task selection
+  - Featurization
+  - Hyper - parametre tuning
+  - Validation
+  - (tools : Randomized Search CV from Sci - kit learn or custom code for hyper - parameter optimization)
+    
+- **Model training -** 
+  - Choosing an operation mode
+  - Featured data
+  - Build the model (Deepchem’s GNN or CNN models for training)
+  - Train on data (use the training data to train the model and tune the data based on the validation set)
+  - Result
+    
+- **Evaluation -**
+  - use the test set to evaluate the trained model performance
+  - If the model is a multitasking model you may need to evaluate each sub model individually.
+
+- **Inference -**
+  - Load pre - trained model.
+  - If you are using a pre - trained model then set transfer = True
+  - Load inference dataset like zinc or Asinex for prediction and then run inference
+
+- **Task recommendation -**
+  - After training evaluate the performance of each sub - model on a validation set.
+  - Choose the sub - models that align most closely with the target task and use them for 0 short predictions.
+
+- **Molecule selection -**
+After the identification of the molecules that have the highest potential we will select them based on clustering and predicting uncertainty.
+Extract model fingerprints.
+Cluster molecules - use k means clustering and u map to cluster similar molecules.
+Select molecules. Choose the top predictions from zinc and FDA dataset with low uncertainty.
+Final evaluation. Evaluate these molecules for toxicity and their ability to interact with DICER (to ensure that they are specific to miR - 21)
