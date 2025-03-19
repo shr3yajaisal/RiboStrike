@@ -1,31 +1,14 @@
-# RiboStrike
-1. Python 
-- Python basics
-- Data structures
-- File handling and basic data manipulation
-- NumPy, Pandas, Matplotlib
+## BASICS
+1. **Micro RNAs -** Micro RNAs or miRNAs are the molecules present in our body that help to regulate the gene expression. They control important processes like cell growth, development or damage repair.
+When some miRNAs start working abnormally, they can contribute to diseases like cancer. For example - miR - 21 is an miRNA that is often overactive in cancer which silences the tumour suppressor genes and allows cancer cells to grow uncontrollably.
 
-2. Basic mathematics of AI
-- Linear algebra - vector, matrices, matrix operations
-- Probability and statistics - mean, variance and probability distributions
-- Calculus - derivatives, gradients, chain rules
+2. **RiboStrike -** RiboStrike is an AI - powered tool that helps scientists find small molecules capable of inhibiting harmful miRNAs, which are linked to diseases like cancer.
 
-3. Introduction to machine learning
-- Supervised Learning - Regression and Classification
-- Unsupervised Learning - Clustering and Dimensionality reduction
-- Basic ML algorithms - 
-	- Linear regression
-	- Decision trees
-	- K - Nearest Neighbors
-	- Random Forest
-	- Support Vector Machines (SVMs)
-
-4. Deep learning (Neural Networks)
-- Neural networks - perceptron, Activation Functions
-- Training deep learning models - backpropagation, optimizers
-- Popular architectures - 
-	- Convolutional Neural Networks (CNNs) - used for image
-	- Recurrent Neural Networks (RNNs) - used for sequence
-	- Transformers - Used in advanced AI like chatGPT
-
-roadmap ki maa ka bhosda
+3. **How does RiboStrike work?**
+Scientists first choose a target miRNA they want to inhibit.
+Instead of manually testing every compound in the lab, RiboStrike uses AI to screen a massive database of small molecules.
+The goal is to find the molecule which will help to bind or block the target miRNA.
+RiboStrike applies deep learning to analyze how molecules interact with miRNA.
+It uses graph - based AI , which treats molecules like a network of nodes (atoms) and edges (bonds), to predict which molecules will work best as inhibitors.
+After screening down millions of molecules, RiboStrike narrows down the top potential miRNA inhibitors that have the highest chance of working.
+The selected molecules are then tested in the lab.
