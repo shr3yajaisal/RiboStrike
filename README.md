@@ -12,3 +12,8 @@ When some miRNAs start working abnormally, they can contribute to diseases like 
 - It uses graph - based AI , which treats molecules like a network of nodes (atoms) and edges (bonds), to predict which molecules will work best as inhibitors.
 - After screening down millions of molecules, RiboStrike narrows down the top potential miRNA inhibitors that have the highest chance of working.
 - The selected molecules are then tested in the lab.
+
+4. **PCBA (PubChem BiaAssay) -** PubChem BioAssay contains small-molecule and RNAi screening data along with associated annotation information from contributing organizations.
+
+5. **BioAssay -** BioAssay contains a collection of bioactivity and toxicity data that has greatly supported research in fields such as medicinal chemistry, drug discovery, pharmaceutical genomics and informatics research.
+Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how different chemical compounds interact with a specific biological target.
