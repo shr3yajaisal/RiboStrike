@@ -63,8 +63,8 @@ Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how 
   - Choose the sub - models that align most closely with the target task and use them for 0 short predictions.
 
 - **Molecule selection -**
-After the identification of the molecules that have the highest potential we will select them based on clustering and predicting uncertainty.
-Extract model fingerprints.
-Cluster molecules - use k means clustering and u map to cluster similar molecules.
-Select molecules. Choose the top predictions from zinc and FDA dataset with low uncertainty.
-Final evaluation. Evaluate these molecules for toxicity and their ability to interact with DICER (to ensure that they are specific to miR - 21)
+  - After the identification of the molecules that have the highest potential we will select them based on clustering and predicting uncertainty.
+  - Extract model fingerprints.
+  - Cluster molecules - use k means clustering and u map to cluster similar molecules.
+  - Select molecules. Choose the top predictions from zinc and FDA dataset with low uncertainty.
+  - Final evaluation. Evaluate these molecules for toxicity and their ability to interact with DICER (to ensure that they are specific to miR - 21)
