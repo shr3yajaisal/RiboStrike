@@ -18,9 +18,20 @@ When some miRNAs start working abnormally, they can contribute to diseases like 
 5. **BioAssay -** BioAssay contains a collection of bioactivity and toxicity data that has greatly supported research in fields such as medicinal chemistry, drug discovery, pharmaceutical genomics and informatics research.
 Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how different chemical compounds interact with a specific biological target.
 
-6. Steps to setup the present the data in structured manner -
-- Environment setup -
+6. **Steps to setup the present the data in structured manner -**
+- **Environment setup -**
   - Install prerequisites - Python , deepchem, sci - kit learn, tensor flow gpu installed (conda environment is recommended)
   - Clone the RiboStrike repository.
  
-- 
+- **Data collection -**
+  - PCBA dataset
+  - Zinc database
+  - Asinex database
+
+- **Pre - processing (Clean and format the dataset) -**
+  - Canonicalize smiles
+  - Remove duplicates and missing data
+  - Classify active and inactive datatest (1 - active and 0 - inactive)
+  - Desalt and remove inorganic molecules (if applicable)
+  - **Splitting -** split the data into train, test and validation sets. (do scaffold - based splitting to ensure that the data used for training and testing does not overlap in terms of molecular structure)
+
