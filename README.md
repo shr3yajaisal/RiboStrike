@@ -19,6 +19,6 @@ When some miRNAs start working abnormally, they can contribute to diseases like 
 Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how different chemical compounds interact with a specific biological target.
 
 6. Steps to setup the present the data in structured manner -
-a) Environment setup -
-- Install prerequisites - Python , deepchem, sci - kit learn, tensor flow gpu installed (conda environment is recommended)
-- Clone the RiboStrike repo
+- Environment setup -
+-- Install prerequisites - Python , deepchem, sci - kit learn, tensor flow gpu installed (conda environment is recommended)
+-- Clone the RiboStrike repo
