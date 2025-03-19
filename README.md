@@ -20,5 +20,7 @@ Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how 
 
 6. Steps to setup the present the data in structured manner -
 - Environment setup -
--- Install prerequisites - Python , deepchem, sci - kit learn, tensor flow gpu installed (conda environment is recommended)
--- Clone the RiboStrike repo
+  - Install prerequisites - Python , deepchem, sci - kit learn, tensor flow gpu installed (conda environment is recommended)
+  - Clone the RiboStrike repository.
+ 
+- 
