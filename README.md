@@ -69,4 +69,4 @@ Each bioassay (e.g., PCBA-1030, PCBA-1379) represents an experiment testing how 
   - Select molecules. Choose the top predictions from zinc and FDA dataset with low uncertainty.
   - Final evaluation. Evaluate these molecules for toxicity and their ability to interact with DICER (to ensure that they are specific to miR - 21)
 
-Shifted to may - july
+
